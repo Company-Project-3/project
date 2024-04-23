@@ -8,11 +8,17 @@
 Custom windows installation will allow you to add and delete software, applications and drivers to your personalized operating system.
 
 Software needed to create Microsoft Windows custom images:
-	-WinPE (The latest version of WinPE doesn't support Windows 11. Download link to WinPE version used in this example: https://go.microsoft.com/fwlink/?linkid=2120253 )
-	-WinADK
-	-MDT
-	-Virtual machine (Hyper-V was used in this example)
-	-x64 ISO image file ( Official Microsoft download link: https://www.microsoft.com/en-us/software-download/windows11 )
+
+	
+ -WinPE (The latest version of WinPE doesn't support Windows 11. Download link to WinPE version used in this example: https://go.microsoft.com/fwlink/?linkid=2120253 )
+
+-WinADK
+	
+ -MDT
+	
+ -Virtual machine (Hyper-V was used in this example)
+	
+ -x64 ISO image file ( Official Microsoft download link: https://www.microsoft.com/en-us/software-download/windows11 )
 
 2.
 Download Windows ADK (accesment and deployment kit)
