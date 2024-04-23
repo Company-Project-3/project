@@ -10,7 +10,7 @@ Custom windows installation will allow you to add and delete software, applicati
 Software needed to create Microsoft Windows custom images:
 
 	
- -WinPE (The latest version of WinPE doesn't support Windows 11. Download link to WinPE version used in this example: https://go.microsoft.com/fwlink/?linkid=2120253 )
+ -WinPE (Due to compatibility issues older version of WinPE was used in this project: https://go.microsoft.com/fwlink/?linkid=2120253 )
 
 -WinADK
 	
