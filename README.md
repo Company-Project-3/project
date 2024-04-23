@@ -87,8 +87,21 @@ Choose whatever Windows 11-operating system you want, except "Home"
 
 ![ChooseOS](https://github.com/Company-Project-3/project/assets/70267456/6a59a830-2546-4ce7-b1ce-7591001597d9)
 
+We do not want to add a product key. 
 
+![NoProductKey](https://github.com/Company-Project-3/project/assets/70267456/b3320d72-ced4-4dc0-8fb3-6cd974998df6)
 
+You can choose your own credentials here for the "User" and the "Organization"
+
+![OSSettings](https://github.com/Company-Project-3/project/assets/70267456/26656fb3-d072-4809-9737-009340ab14ec)
+
+Do not specify Admin Password 
+
+![AdminPassword](https://github.com/Company-Project-3/project/assets/70267456/2872709b-bbe9-474b-8242-aebfe8323681)
+
+After "Summary" click "Next" and let Task Sequence Wizard finish the job. After this You should have a new task sequence in this list
+
+![TaskSequenceList](https://github.com/Company-Project-3/project/assets/70267456/dfe7f2f9-600e-4c72-b090-d8787dda6c4a)
 
 
 
