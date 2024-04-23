@@ -75,7 +75,17 @@ Next we will add a "Task sequence"
 
 ![AddTaskSequence](https://github.com/Company-Project-3/project/assets/70267456/95ab8a34-d7b5-4d52-a61f-2f62b64d30f1)
 
+Again you can name the file whatever you want, but the Task sequence ID should be something you can remember easily
 
+![NameTaskSequence](https://github.com/Company-Project-3/project/assets/70267456/1db519f4-e6e3-4608-80c2-815eae985214)
+
+We will be using "Standard Client Task Sequence" as template 
+
+![TaskSequenceTemplate](https://github.com/Company-Project-3/project/assets/70267456/03faffd5-ef13-4e5b-ba8b-28b7078c76d1)
+
+Choose whatever Windows 11-operating system you want, except "Home"
+
+![ChooseOS](https://github.com/Company-Project-3/project/assets/70267456/6a59a830-2546-4ce7-b1ce-7591001597d9)
 
 
 
