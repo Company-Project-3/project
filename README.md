@@ -55,6 +55,30 @@ Let's go back to WorkBench and add this operating system to be customized
 
 ![ImportOS](https://github.com/Company-Project-3/project/assets/70267456/8cb9ebb0-5761-481a-9fff-840e0f9635e5)
 
+Choose "Full set of source files" 
+
+![FullSetOfSF](https://github.com/Company-Project-3/project/assets/70267456/7d7c67fc-57c8-4839-9bb9-b9fb7b1e8533)
+
+This Mounted operating system should appear under "This PC" as a DVD-drive
+
+![ThisPC](https://github.com/Company-Project-3/project/assets/70267456/212e02a8-b31c-4cb8-b541-6632e0c4c585)
+
+You can name this operating system whatever you want under the "Destination Directory Name", but automatically it will choose one of the available Windows operating systems randomly and name it after one of those.
+
+On the "Summary"-view you should click "Finish" and let the "Import operating system wizard" finish the rest.
+
+After adding your operating system your "Operating systems"-folder should have updated
+
+![UpdatedOSFolder](https://github.com/Company-Project-3/project/assets/70267456/11f7fd74-1212-4a27-b53d-47a3d98781c8)
+
+Next we will add a "Task sequence"
+
+![AddTaskSequence](https://github.com/Company-Project-3/project/assets/70267456/95ab8a34-d7b5-4d52-a61f-2f62b64d30f1)
+
+
+
+
+
 
 
 
