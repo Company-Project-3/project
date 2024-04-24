@@ -111,9 +111,13 @@ After downloading the bundle, extract it from its compressed file and look for "
 
 ![ChromeInstaller](https://github.com/Company-Project-3/project/assets/70267456/051ed9b1-e627-41a9-bfd9-7f614e15443a)
 
-Crete a new folder for it and move this installer there.
+Create a new folder for it and move this installer there
 
 ![image](https://github.com/Company-Project-3/project/assets/70267456/1c6acdfa-2807-43ca-977f-5d854dee8326)
+
+Go back to your WorkBench and add a new application
+
+![image](https://github.com/Company-Project-3/project/assets/70267456/53a2c1a9-542f-403c-998e-359e8ba1b78d)
 
 
 
