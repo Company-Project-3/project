@@ -132,6 +132,7 @@ Browse to the installer folder we previously created and give it here is a direc
 ![AppInstallFolder](https://github.com/Company-Project-3/project/assets/70267456/b943b5b7-8006-4078-9b10-16d70546fdda)
 
 Check that the application name is correct in "destination"-page.
+
 On the "Command details"-page write the following command to install this software silently:
 
 ``` msiexec /l GoogleChromeStandaloneEnterprise64.msi /qn ```
