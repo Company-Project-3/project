@@ -103,8 +103,17 @@ After "Summary" click "Next" and let Task Sequence Wizard finish the job. After 
 
 ![TaskSequenceList](https://github.com/Company-Project-3/project/assets/70267456/dfe7f2f9-600e-4c72-b090-d8787dda6c4a)
 
+We shall come back to this after adding applications to this custom image. In this example we are going to use Google Chrome installation bundle 
 
+https://support.google.com/chrome/a/answer/7650032?hl=en
 
+After downloading the bundle, extract it from its compressed file and look for "installers"-folder. It should look like this and in this example we are going to use the "GoogleStandaloneEnterprise64.msi"-installer
+
+![ChromeInstaller](https://github.com/Company-Project-3/project/assets/70267456/051ed9b1-e627-41a9-bfd9-7f614e15443a)
+
+Crete a new folder for it and move this installer there.
+
+![image](https://github.com/Company-Project-3/project/assets/70267456/1c6acdfa-2807-43ca-977f-5d854dee8326)
 
 
 
