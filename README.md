@@ -133,7 +133,8 @@ Browse to the installer folder we previously created and give it here is a direc
 
 Check that the application name is correct in "destination"-page.
 On the "Command details"-page write the following command to install this software silently:
-´´´ msiexec /l GoogleChromeStandaloneEnterprise64.msi /qn ´´´
+
+``` msiexec /l GoogleChromeStandaloneEnterprise64.msi /qn ```
 
 ![image](https://github.com/Company-Project-3/project/assets/70267456/aa171e4a-bd7c-43f7-b6a4-edd182cc1554)
 
