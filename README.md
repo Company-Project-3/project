@@ -145,6 +145,10 @@ In this "applications"-folder you can also check your applications properties, b
 
 ![image](https://github.com/Company-Project-3/project/assets/70267456/361d7905-dfb4-4571-9521-168d524be7db)
 
+Let's go back to "Task Sequences"-folder and check your task sequences properties
+
+![TSProperties](https://github.com/Company-Project-3/project/assets/70267456/554dec0c-aefc-4098-ad7d-800e0e39fcd2)
+
 
 
 
