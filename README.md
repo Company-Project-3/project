@@ -5,7 +5,7 @@ Windows Preinstallation Environment ([WinPE](https://learn.microsoft.com/en-us/w
 
 
 ## Working with Answer files
-Note: Example of autounattended.xml is added to this repository.
+Note: Example of autounattend.xml is added to this repository.
 ### Windows System Image Manager (SIM)
 SIM helps with creation of Answer files (unattend.xml) that can be used to modify the Windows installation.
 
