@@ -119,6 +119,33 @@ Go back to your WorkBench and add a new application
 
 ![image](https://github.com/Company-Project-3/project/assets/70267456/53a2c1a9-542f-403c-998e-359e8ba1b78d)
 
+Choose "Application with source files"
+
+![AppInstall1](https://github.com/Company-Project-3/project/assets/70267456/da5accf0-dde9-479d-a286-66c0ffb6f5c4)
+
+Name the Application
+
+![AppInstall2](https://github.com/Company-Project-3/project/assets/70267456/40980e39-55fa-440b-ad9e-9dd716c9043c)
+
+Browse to the installer folder we previously created and give it here is a directory path
+
+![AppInstallFolder](https://github.com/Company-Project-3/project/assets/70267456/b943b5b7-8006-4078-9b10-16d70546fdda)
+
+Check that the application name is correct in "destination"-page.
+On the "Command details"-page write the following command to install this software silently:
+´´´ msiexec /l GoogleChromeStandaloneEnterprise64.msi /qn ´´´
+
+![image](https://github.com/Company-Project-3/project/assets/70267456/aa171e4a-bd7c-43f7-b6a4-edd182cc1554)
+
+Check that everything seems correct on "Summary"-page and click "Next". Let application wizard finish the job and now you should have an application in the "applications"-folder of WorkBench
+
+![image](https://github.com/Company-Project-3/project/assets/70267456/93767ce9-2871-4147-a08b-e4d8732b966c)
+
+In this "applications"-folder you can also check your applications properties, by right-clicking the application and adjust things like command line as well as on which platforms this app should run on.
+
+![image](https://github.com/Company-Project-3/project/assets/70267456/361d7905-dfb4-4571-9521-168d524be7db)
+
+
 
 
 
