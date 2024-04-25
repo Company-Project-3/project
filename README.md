@@ -40,7 +40,13 @@ Task sequence is a set of actions excuted in a linear order.
 
 8. ![alt text](<Screenshot 2024-04-24 151759.png>) 
 - Select the created task sequence and navigate to the properties page.
-- Leave the genral tab on the default settings page
+- Leave the general tab on the default settings page
 
-**NOTE:** IF you have many task sequence you can disable the one that is not needed by toggling **the Enable this task sequence option**.
+**NOTE:** IF you have many task sequences you can disable the one that is not needed by toggling **the Enable this task sequence option**.
+- Select the task sequence tab
 
+9. ![alt text](<Screenshot 2024-04-24 151819.png>)
+- On the task sequence page, you can toogle between each steps to activate or de-activate certain tasks.
+- Expand the state restore option and select the windows update (pre-application installation), navigate to the options menu and tick the **Disable this step** option and apply changes
+- Select the windows update (post-application installation), navigate to the options menu and tick the **Disable this step** option and apply changes.
+- Select the OK icon.
