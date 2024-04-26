@@ -34,7 +34,7 @@ Windows operating system as an ISO-file
 And Virtual machine of your choise
 
 <details>
-<summary> Installation guide </summary>
+<summary>  Installation guide  </summary>
 
 Open Deployment Workbench
 
@@ -157,9 +157,54 @@ Let's go back to "Task Sequences"-folder and check your task sequences propertie
 
 </details>
 
+<details>
+<summary> Testing image in Virtual machine </summary>
+
+This guide will tell you about setting up the image in virtual environment. We used Hyper-V manager as the Virtual machine, since it has kernel level access to host device and it was provided by Microsoft.
+
+The ISO-image used in this example was previously built and renamed, but you'll learn where you can find the ISO-image you just created.
+
+After Updating your deployment share, you should have this x64-iso image here in "Boot"-folder of your deployment share.
+
+![Alt text](image.png)
+
+Open your Virtual Machine manager, and start the installation process, by creating a new virtual machine. Screenshot taken in Hyper-V manager.
+
+![Alt text](image-1.png)
+
+Give your Virtual Machine a name, and choose a place to store it in your device
+
+![Alt text](image-2.png)
+
+Choose which generation of Virtual machine you want
+
+![Alt text](image-3.png)
+
+It is recommended to give atleast 2 megabytes of RAM to this device. In this tutorial I decided to give 4 MB of RAM
+
+![Alt text](image-4.png)
+
+Here you can choose whether your device should have internet connection or not. This can be changed later.
+
+![Alt text](image-5.png)
+
+Here you can choose how much memory your virtual device will have. For our case, 127 GB is enough
+
+![Alt text](image-6.png)
+
+This is the most important part, where we choose our operating system. This can be done later, but I'll add it here next.
+
+![Alt text](image-7.png)
+
+After checking your summary click "Finish" and let virtual machine manager set up the environment.
+
+Now, by connecting to your device you will see a "start"-button. By clicking that button you will start the set up for your own custom Windows 11 image, and in this virtual environment you can test, and check out the features that you have added.
+
+</details>
+
 ## 3.
 
-## 4. What we found and what to look out for
+## 4. What we learnt, errors and unused features
 
 In this session you will learn about potential unused features and common errors you might encounter
 
