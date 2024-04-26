@@ -198,6 +198,8 @@ This is the most important part, where we choose our operating system. This can 
 
 After checking your summary click "Finish" and let virtual machine manager set up the environment.
 
+![StartButton](https://github.com/Company-Project-3/project/assets/70267456/13562c8a-6e5d-48f8-90e1-ddb97a897e57)
+
 Now, by connecting to your device you will see a "start"-button. By clicking that button you will start the set up for your own custom Windows 11 image, and in this virtual environment you can test, and check out the features that you have added.
 
 </details>
