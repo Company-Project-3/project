@@ -211,6 +211,10 @@ In this session you will learn about potential unused features and common errors
 - Server usability in this environment
 
   - It is possible to deploy this to a server which has workdomain, but it would defeat the purpose of **silent** installation of software.
+ 
+  ![Server](https://github.com/Company-Project-3/project/assets/70267456/3ee71c43-47c9-4a54-9f06-2375a5ea74da)
+
+
 
 - Errors regarding setting up this environment
 - Windows Home edition isn't recommended
