@@ -658,23 +658,34 @@ In this session you will learn about potential unused features and common errors
 
   <details>
     <summary>Screenshots of NTlite</summary>
-    1
-    ![Adding3rdPartyAppsSilently](https://github.com/Company-Project-3/project/assets/70267456/92dd419b-ff09-4b6d-9ec5-839cbace14c8)
-    2
-    ![CreatingCustomISO](https://github.com/Company-Project-3/project/assets/70267456/5d4e254c-5955-419e-b6ab-5bd0c61a17ee)
-    3
-    ![DisablingAutoupdateandGamingFeatures](https://github.com/Company-Project-3/project/assets/70267456/4cbfb33b-115a-4bc3-9ac8-edb0635233bb)
-    4
-    ![ImageCreated](https://github.com/Company-Project-3/project/assets/70267456/25f5d5fe-116a-4679-a37e-0ea1c32b37aa)
-    5
-    ![Removing PreInstalledApplications](https://github.com/Company-Project-3/project/assets/70267456/6000152f-889e-4db7-abd1-6bc63fbc9fa2)
-    6
-    ![WindowsReadyWith3rdPartyApps](https://github.com/Company-Project-3/project/assets/70267456/304a4784-8461-4f25-b1e5-2d9a6bc00ac1)
-    7
-    ![WinProLoadedinApp](https://github.com/Company-Project-3/project/assets/70267456/c2916726-9a67-4800-8705-be698a164f4c)
-  
+    
+   
+    Selecting my operating system.
 
+  ![WinProLoadedinApp](https://github.com/Company-Project-3/project/assets/70267456/c2916726-9a67-4800-8705-be698a164f4c)
 
+  Creating custom image.
+  ![CreatingCustomISO](https://github.com/Company-Project-3/project/assets/70267456/5d4e254c-5955-419e-b6ab-5bd0c61a17ee)
+
+  When Image is ready it gives this message.
+
+  ![ImageCreated](https://github.com/Company-Project-3/project/assets/70267456/25f5d5fe-116a-4679-a37e-0ea1c32b37aa)
+
+  Next we will add our 3rd party software
+
+  ![Adding3rdPartyAppsSilently](https://github.com/Company-Project-3/project/assets/70267456/92dd419b-ff09-4b6d-9ec5-839cbace14c8)
+
+  We will disable windows autoupdates and gaming features
+
+  ![DisablingAutoupdateandGamingFeatures](https://github.com/Company-Project-3/project/assets/70267456/4cbfb33b-115a-4bc3-9ac8-edb0635233bb)
+
+  Removing Windows preinstalled applications. In this example I've disabled Windows Media Player and other Windows applications.
+
+  ![Removing PreInstalledApplications](https://github.com/Company-Project-3/project/assets/70267456/6000152f-889e-4db7-abd1-6bc63fbc9fa2)
+
+  This is what it looks like when I boot this image up, and as you can see there are couple of applications added to this desktop.
+
+  ![WindowsReadyWith3rdPartyApps](https://github.com/Company-Project-3/project/assets/70267456/304a4784-8461-4f25-b1e5-2d9a6bc00ac1)
 
   </details>
 
