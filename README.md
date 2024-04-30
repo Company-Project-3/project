@@ -656,4 +656,9 @@ In this session you will learn about potential unused features and common errors
   - We've also explored the possibility to create images with not-Microsoft supported applications, mainly NTlite.
   - https://www.ntlite.com/
 
+  <details>
+    <summary>Screenshots of NTlite</summary>
+
+  </details>
+
   - This software made creating custom images much more simplistic with their drag-and-drop app installation and we could also just disable Windows own pre-installed applications
