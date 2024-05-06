@@ -647,7 +647,58 @@ In this session you will learn about potential unused features and common errors
 
   ![Server](https://github.com/Company-Project-3/project/assets/70267456/3ee71c43-47c9-4a54-9f06-2375a5ea74da)
 
+  - AD DS (Active directory domain services) This is a managing tool for computers, accounts and devices connected to this server and this allows the host server send updates and managed users visiting this server.
+  - DHCP (Dynamic host configuration protocol) assigns IP addresses and network configuration. This also removes static IP-addresses making network management more efficient.
+  - DNS (Domain name system) translates numerical IP-addresses into human readable domain names, which are most often seen on the internet with ".com"-ending. In this implementation I decided to create "domain.lan"-server which implies that this server will be used only in Local Area Network (LAN)
+  - IIS (internet information services) will be able to connect your applications to internet and in this case I used it to host my local server and it made it easier for me to connect to it.
+  - NPAS (Network policy access service) is a tool which manages authorization of users and with this you are able to set rules and roles to your users.
+  - Remote desktop services (RDS) is a must when connecting from a regular machine/VM to a server and this also will give users remote desktop access to your server, if and when needed.
+
 - Errors regarding setting up this environment
+
+  - Powershell update required to use MDT Deployment workbench
+  - code 80040049: Value for attribute is not valid: language
+    <details>
+    <summary>Possible fixes</summary>
+
+    - Check your Windows ADK version
+    - You might have the wrong version of winPE add on
+    </details>
+
+  - code 0x80070490: Failed to run task sequence
+    <details>
+    <summary>Possible fixes</summary>
+
+    - If you encounter this error, you should open terminal in your Virtual environment and clean the disk
+
+      ```ps
+       diskpart
+      ```
+
+      ```ps
+       list disk
+      ```
+
+      ```ps
+       select disk
+      ```
+
+      ```ps
+       clean
+      ```
+
+    </details>
+
+  - empty script error during launch
+
+      <details>
+    <summary>Possible fixes</summary>
+
+    - You might have BitLocker protecting your iso-image
+    - You need to check your "Registery Editor" and assign new value to a file which is located in "HKEY_CLASSES_ROOT > .vbs ". There you can see a "(Default)"-String which by clicking it you are able to change its value to "VBSFile" and this error should be fixed
+
+    </details>
+
 - Windows Home edition isn't recommended
   - Windows 10 home is limited with its customization capabilities and it is also missing some key features that are present on other versions of Windows.
   - One of the biggest things missing from this operating system was Hyper-V Virtual machine support.
