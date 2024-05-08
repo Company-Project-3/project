@@ -680,12 +680,42 @@ In this session you will learn about potential unused features and common errors
       ```
 
       ```ps
-       select disk
+       select disk #*
       ```
 
       ```ps
        clean
       ```
+
+    - \*the disk volume/name
+
+    - If cleaning of the disk didnt work you could also reformat the drives from your virtual machine.
+
+      ```ps
+          diskpart
+      ```
+
+      ```ps
+      list volume
+      ```
+
+      ```ps
+      select volume #*
+      ```
+
+      ```ps
+      format fs=ntfs
+      ```
+
+      or
+
+      ```ps
+      format fs=ntfs quick
+      ```
+
+      if you want to force faster reformatting of this drive
+
+    - \*the disk volume/name
 
     </details>
 
@@ -695,6 +725,13 @@ In this session you will learn about potential unused features and common errors
     <summary>Possible fixes</summary>
 
     - You might have BitLocker protecting your iso-image
+    - This error could also be from internet explorer like mentioned in the following article: https://learn.microsoft.com/en-us/mem/configmgr/mdt/known-issues
+    - In this article they've mentioned this script that could fix the issue
+
+    ```ps
+    reg.exe add "HKLM\Software\Microsoft\Internet Explorer\Main" /t REG_DWORD /v JscriptReplacement /d 0 /f
+    ```
+
     - You need to check your "Registery Editor" and assign new value to a file which is located in "HKEY_CLASSES_ROOT > .vbs ". There you can see a "(Default)"-String which by clicking it you are able to change its value to "VBSFile" and this error should be fixed
 
     </details>
